@@ -1,0 +1,18 @@
+
+Paso para hacer funcionar el proyecto:
+
+- Ejecutar un clone del proyecto por su metodo favorito
+- Tener instalado Laragon en su version mas reciente y hacer uso de una consola de su agrado
+- O Contar con PHP =>7.4.19, Laravel/Framework =>8.65, Node V14, DB de su gusto para este caso Mysql con Heidi
+- Linea de comando artisant y terminal, todo estos nos lo proporciona Laragon
+
+
+- Instalar la dependencia con composer que se necesitan proyecto "composer install"
+- Instalar la dependencia con npm para hacer uso de algun javascrip y css con "npm install"
+- Actualizar el Vue-loader a la version mas reciente "npm udpate vue loader" y luego "npm run dev"
+- Generar un nuevo .env si por casualidad no cuenta con ese archivo genera una copy el env.example
+- cambiar el nombre a .env y generar un nuevo con "php artisan key:generate"
+- Y LISTO TENDRA EL PROYECTO DE MANERA LOCAL FUNCIONAN EN APACHE Y CON UN VIRTUALHOST SI USO LARAGON.
+- Solo faltara crear una base de datos con el nombre del proyecto (projecttest)
+- Y ejecute el comando "php artisan migrate" para ejecutar la migracion que el proyecto que necesita para su funcionamiento
+- Ahora podra acceder al proyecto con el simple nombre de la proyecto por su URL y navegador favorito. 
